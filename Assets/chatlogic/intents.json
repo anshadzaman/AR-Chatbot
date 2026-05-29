@@ -1,0 +1,39 @@
+{
+    "intents": [
+      {
+        "name": "Greeting",
+        "trainingPhrases": [
+          { "text": "Hi" },
+          { "text": "Hello" },
+          { "text": "Hey there" }
+        ],
+        "responses": [
+          "Hi there! How can I assist you today?",
+          "Hello! What can I do for you?"
+        ]
+      },
+      {
+        "name": "General_Info",
+        "trainingPhrases": [
+          { "text": "What can you do?" },
+          { "text": "How can you help me?" }
+        ],
+        "responses": [
+          "I’m here to help with your queries. Feel free to ask me anything!",
+          "I can assist with [specific services]. What do you need help with?"
+        ]
+      },
+      {
+        "name": "Joke",
+        "trainingPhrases": [
+          { "text": "Tell me a joke" },
+          { "text": "Make me laugh" }
+        ],
+        "responses": [
+          "Why don’t robots ever get tired? Because they recharge!",
+          "I told my circuits a joke... but they didn’t get it!"
+        ]
+      }
+    ]
+  }
+  

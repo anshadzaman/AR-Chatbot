@@ -1,0 +1,4 @@
+repository "arxpart@AZIO1012@cloud"
+  path "/"
+    br "/main"
+    co "/main"

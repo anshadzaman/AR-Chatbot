@@ -1,0 +1,80 @@
+{
+    "name": "projects/cs-department-id/agent/intents/cs-department-faculty-intent-id",
+    "displayName": "CS Department Faculty Information",
+    "webhookState": "WEBHOOK_STATE_UNSPECIFIED",
+    "priority": 500000,
+    "trainingPhrases": [
+      {
+        "parts": [
+          {
+            "text": "Who are the faculty members in the Computer Science department?"
+          }
+        ]
+      },
+      {
+        "parts": [
+          {
+            "text": "Tell me about the CS department faculty."
+          }
+        ]
+      },
+      {
+        "parts": [
+          {
+            "text": "Can you list the teachers in the Computer Science department?"
+          }
+        ]
+      },
+      {
+        "parts": [
+          {
+            "text": "Give me the list of faculty in Computer Science."
+          }
+        ]
+      },
+      {
+        "parts": [
+          {
+            "text": "Who is the head of the Computer Science department?"
+          }
+        ]
+      }
+    ],
+    "responses": [
+      {
+        "text": {
+          "text": [
+            "Here are the faculty members in the Computer Science department:\n\n1. Dr. SHAMEEM Kappan - HoD, Associate Professor\n2. Dr. MOHAMED BASHEER K P - Associate Professor [Lien Period]\n3. SWAPNA MOL GEORGE - Assistant Professor\n4. Dr. MUNEER.V.K - Assistant Professor\n5. RABABA KAREEM.K - Assistant Professor\n6. AYYOOB M P - Assistant Professor\n7. Dr. Rizwana Kallooravi Thandil - Assistant Professor\n8. INSAF P - Guest Faculty\n9. MAIMOONA KP - Guest Faculty"
+          ]
+        }
+      },
+      {
+        "text": {
+          "text": [
+            "The faculty members in the CS department are as follows:\n\n- Dr. SHAMEEM Kappan (HoD, Associate Professor)\n- Dr. MOHAMED BASHEER K P (Associate Professor [Lien Period])\n- SWAPNA MOL GEORGE (Assistant Professor)\n- Dr. MUNEER.V.K (Assistant Professor)\n- RABABA KAREEM.K (Assistant Professor)\n- AYYOOB M P (Assistant Professor)\n- Dr. Rizwana Kallooravi Thandil (Assistant Professor)\n- INSAF P (Guest Faculty)\n- MAIMOONA KP (Guest Faculty)"
+          ]
+        }
+      },
+      {
+        "text": {
+          "text": [
+            "The following faculty members are part of the CS department:\n\n- Dr. SHAMEEM Kappan (HoD, Associate Professor)\n- Dr. MOHAMED BASHEER K P (Associate Professor [Lien Period])\n- SWAPNA MOL GEORGE (Assistant Professor)\n- Dr. MUNEER.V.K (Assistant Professor)\n- RABABA KAREEM.K (Assistant Professor)\n- AYYOOB M P (Assistant Professor)\n- Dr. Rizwana Kallooravi Thandil (Assistant Professor)\n- INSAF P (Guest Faculty)\n- MAIMOONA KP (Guest Faculty)"
+          ]
+        }
+      },
+      {
+        "text": {
+          "text": [
+            "Here is a list of faculty members in the Computer Science department:\n\n- Dr. SHAMEEM Kappan (HoD, Associate Professor)\n- Dr. MOHAMED BASHEER K P (Associate Professor [Lien Period])\n- SWAPNA MOL GEORGE (Assistant Professor)\n- Dr. MUNEER.V.K (Assistant Professor)\n- RABABA KAREEM.K (Assistant Professor)\n- AYYOOB M P (Assistant Professor)\n- Dr. Rizwana Kallooravi Thandil (Assistant Professor)\n- INSAF P (Guest Faculty)\n- MAIMOONA KP (Guest Faculty)"
+          ]
+        }
+      }
+    ],
+    "parameters": [],
+    "messages": [],
+    "defaultResponsePlatforms": {
+      "google": true,
+      "facebook": true
+    }
+  }
+  
